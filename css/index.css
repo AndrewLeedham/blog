@@ -42,6 +42,10 @@ a[href]:visited {
 main {
   padding: 1rem;
 }
+main.tmpl-post, main.tmpl-home {
+  margin: 0 auto;
+  max-width: 37.5em;
+}
 main :first-child {
   margin-top: 0;
 }
@@ -128,6 +132,12 @@ code {
 }
 .home :link:not(:hover) {
   text-decoration: none;
+}
+.header > div {
+  margin: 0 auto;
+  max-width: 37.5em;
+  display: flex;
+  align-items: center;
 }
 
 /* Nav */
