@@ -1,7 +1,7 @@
 ---
 title: Jest's test.each just got a whole lot better
 description: Jest added a new feature to test.each that helps with writing readable and maintainable tests.
-date: 2020-09-10
+date: 2021-09-10
 tags:
   - javascript
   - testing

@@ -1,7 +1,7 @@
 ---
 title: Better Late than Never
 description: Why my blog is currently using an eleventy starter theme.
-date: 2020-09-08
+date: 2021-09-08
 tags:
   - updates
 layout: layouts/post.njk

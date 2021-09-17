@@ -1,7 +1,7 @@
 ---
 title: You might want Pick not Partial in TypeScript
 description: When writing TypeScript you might be better using Pick instead of Partial
-date: 2020-09-15
+date: 2021-09-15
 tags:
   - typescript
 layout: layouts/post.njk

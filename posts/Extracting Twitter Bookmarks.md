@@ -1,7 +1,7 @@
 ---
 title: Extracting Twitter Bookmarks
 description: Why I wanted to get Twitter bookmarks out of Twitter, and how you can too.
-date: 2020-09-08
+date: 2021-09-08
 tags:
   - scraping
   - organisation
