@@ -3,6 +3,7 @@ title: How Experimental Browser Features Helped Me Verify a Hypothesis
 description: A look at how I solved an issue with scrollbars and an accordion animation using experimental browser features.
 date: 2021-10-07
 tags:
+  - web
   - javascript
   - debugging
 layout: layouts/post.njk

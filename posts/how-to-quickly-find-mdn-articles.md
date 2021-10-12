@@ -3,6 +3,7 @@ title: How to Quickly Find MDN Articles
 description: A tip for getting to MDN Articles faster.
 date: 2021-10-08
 tags:
+  - web
   - tips
 layout: layouts/post.njk
 ---
