@@ -20,7 +20,10 @@ For most cases the above functions should suffice. However, you may have noticed
 
 # Method 2
 Using `try`/`catch` in a Jest test function is the second method, this may seem obvious but what if no error is thrown, the test would still pass. Jest has us covered here with a function for checking how many assertions were made in a test: [`expect.hasAssertions()`](https://jestjs.io/docs/expect#expecthasassertions), or even [`expect.assertions(number)`](https://jestjs.io/docs/expect#expectassertionsnumber) if you want to make sure a specific number of assertions were made. I have been using Jest for years and have only just discovered these two functions (hence the blogpost). So, let’s look at an example:
-```javascript
+```javascript twoslash
+/// <reference types="jest" />
+/// <reference lib="esnext.promise" />
+// ---cut---
 function foo() {
   throw new AggregateError([new Error('bar'), new Error('baz')], 'foo');
 }
